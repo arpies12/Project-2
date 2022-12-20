@@ -1,0 +1,114 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Nunito sans',sans-serif;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+
+	
+
+
+/*HOME*/
+.navbar{
+	background-color: rgba(1, 38, 38, 0.9);
+}
+.navbar a img{
+	height: 4rem;
+}
+.navbar-toggler {
+	border: none;
+	outline: none;
+	color: #fffff;
+	font-size: 2rem!!important;
+}
+ul li a{
+	position: relative;
+	left: 500px;
+	margin-left: 10px;
+	color: #ffff;
+	font-weight: 600;
+	font-size: medium;
+	text-transform: uppercase;
+	padding-left: 1rem;
+}
+.nav-link{
+	color: white;
+}
+ul li a:hover{
+	background-color: #0f5959;
+	color: white;
+	height: auto;
+	width: inherit;
+	border-radius: 5px;
+}
+.nav-socials .fa{
+	position: relative;
+	left: 500px;
+	top: 70px;
+	color: #ffffff;
+	padding-right: 20px;
+	font-size: large;
+}
+.active{
+	color: #a4b3bf;
+}
+
+/*/navbar */
+
+
+/* main page */
+.main-heading{
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+.main-heading h1{
+	color: white;
+	font-weight: 500;
+	text-shadow: 2px 1px #09090d;
+}
+.bg-img a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #115259;
+	color: white;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 1rem;
+	padding: 0px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+/* About */
+
+:root {
+	--footer-background-color: #012626;
+}
+.about-footer{
+	width: 100%;
+	height: 50px;
+	background-color: var(--footer-background-color);
+}
+.about-myself-col h2{
+	font-size: 2rem;
+	color: #09090d;
+	font-weight: 500;
+}
+
+
+/* work */

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./clickwithme/clickwithme.css">
+
+    <title>Welcome to clickwithme</title>
+
+    <style>
+      .contact-sec{
+        background-color: whitesmoke;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+      }
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+
+  <a class="navbar-brand" href="#">
+    <img src="./clickwithme/clicklogo2.jpg">
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-reorder"></i>
+  </button>
+
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+              <a class="nav-link" href="./clickwithme.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./work.html">My Work</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active" href="./contact.html">Contact<span class="sr-only"></span></a>
+      </li>
+
+      <div class="nav-socials pt-2">
+        <a href="#" data-toggle="tooltip" title="like us on facebook"><i class="fa fa-facebook" aria-hidden="true" style="cursor: pointer;"></i></a>
+
+        <a href="#" data-toggle="tooltip" title="follow us on twitter"><i class="fa fa-twitter" aria-hidden="true" style="cursor: pointer;"></i></a>
+
+        <a href="#" data-toggle="tooltip" title="follow us on instagram"><i class="fa fa-instagram" aria-hidden="true" style="cursor: pointer;"></i></a>
+    </div>
+      
+    </ul>
+    
+  </div>
+</div>
+
+  <!-- /container -->
+</nav>
+
+
+<div class="container my-5 py-5 z-depth-1">
+
+	<section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text contact-sec">
+		<div class="row d-flex">
+		<div class="col-sm-6">
+			<form class="text-center" action="" method="post" style="position: relative; left: 250px; top: 70px;">
+				<h3 class="font-weight-bold mb-4">Contact Us </h3>
+
+
+				<!-- Name -->
+				<input type="text" id="Name" class="form-control mb-4" placeholder="Name">
+
+				<!-- Email -->
+				<input type="email" class="form-control mb-4" placeholder="Email">
+
+				<!-- Subject -->
+				<label for="" style="font-family: 'Nunito sans-serif';">Subject</label>
+				<select name="" id="" class="browser-defaulf custom-select mb-4">
+					<option value="" disabled>Choose Option</option>
+					<option value="1">Feedback</option>
+					<option value="2">Bookings</option>
+					<option value="3">Suggestions</option>
+					<option value="4" >Collaboration</option>
+				</select>
+
+				<!-- Message -->
+				<div class="form-group">
+					<textarea class="form-control rounded-0" name="" id="textarea" cols="30"
+					rows="3" placeholder="Message"></textarea>
+				</div>
+
+				<!-- Copy -->
+				<div class="custom-control custom-checkbox mb-4">
+					<input type="checkbox" class="custom-control-input" id="copy">
+					<label for="copy" class="custom-control-label">Send me a copy of this message
+					</label>
+				</div>
+
+				<!-- Send button -->
+				<button class="btn btn-info btn-black" type="submit">Send</button>
+
+
+			</form>
+
+		</div>
+	</div>
+
+	</section>
+
+	
+
+
+
+</body>
+</html>
